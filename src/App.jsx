@@ -11,7 +11,6 @@ const App = () => {
       <section id='About'>About</section>
       <section id='Portfolio'>portfolio</section>
       <section id='Contact'>contact</section>
-      
     </>
   );
 };

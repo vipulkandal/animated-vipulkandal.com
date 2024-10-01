@@ -52,6 +52,9 @@
   }
 
   button {
+    display: flex; /* Added */
+    align-items: center; /* Added */
+    justify-content: center; /* Added */
     z-index: 999;
     position: fixed;
     width: 50px;
