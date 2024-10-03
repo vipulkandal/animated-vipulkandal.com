@@ -36,7 +36,7 @@ const Links = () => {
             <motion.li
               variants={linkVariants}
               whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
+              whileTap={{ scale: 0.9 }}
             >
               <div className='icon-placeholder' />
               <div className='text-placeholder'>{page}</div>
