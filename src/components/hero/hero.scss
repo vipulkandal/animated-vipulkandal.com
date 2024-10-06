@@ -39,6 +39,7 @@
 
     .buttons {
       button {
+        width: 150px;
         margin: 20px;
         padding: 10px 20px;
         border: 2px solid white;
@@ -47,6 +48,7 @@
         color: white;
         cursor: pointer;
         font-size: 16px;
+        z-index: 100;
       }
       button:hover {
         background-color: white;

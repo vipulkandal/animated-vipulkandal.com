@@ -43,18 +43,19 @@ const Hero = () => {
         >
           {/* <h2>Vipul Kandal</h2> */}
           <motion.h1 variants={textVariants}>
-            <span>Fullstack Developer</span>, expert at <span>Front-end</span>{" "}
+            <span>MERN Stack Developer</span>, expert at <span>Front-end</span>{" "}
             Technologies
           </motion.h1>
           <motion.div className='buttons' variants={textVariants}>
             <motion.button variants={textVariants}>
-              See My Latest Projects
+              Projects
             </motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}>Download CV</motion.button>
           </motion.div>
         </motion.div>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         className='slidingTextContainer'
         variants={sliderVariants}
         initial='initial'
@@ -62,7 +63,7 @@ const Hero = () => {
       >
         React  Next.js  CSS  JavaScript  Redux  Node.js  Express.js  REST
         API  MongoDB  Git Vercel
-      </motion.div>
+      </motion.div> */}
       {/* <div className='image-container'>
         <img src='/hero.png' alt='' />
       </div> */}
