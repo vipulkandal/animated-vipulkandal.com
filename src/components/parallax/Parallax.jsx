@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import "./parallax.scss";
 import { motion, useScroll, useTransform } from "framer-motion";
 
@@ -12,10 +12,11 @@ const Parallax = ({ type }) => {
 
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
   const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  const scaleStars = useTransform(scrollYProgress, [0, 1], [1, 3.2]); // zoom from 1 to 3.2
 
   return (
     <div
-      className="parallax"
+      className='parallax'
       ref={ref}
       style={{
         background:
@@ -27,9 +28,9 @@ const Parallax = ({ type }) => {
       <motion.h1 style={{ y: yText }}>
         {type === "services" ? "What We Do?" : "What We Did?"}
       </motion.h1>
-      <motion.div className="mountains"></motion.div>
+      <motion.div className='mountains'></motion.div>
       <motion.div
-        className="planets"
+        className='planets'
         style={{
           y: yBg,
           backgroundImage: `url(${
@@ -37,7 +38,7 @@ const Parallax = ({ type }) => {
           })`,
         }}
       ></motion.div>
-      <motion.div style={{ x: yBg }} className="stars"></motion.div>
+      <motion.div style={{ scale: scaleStars }} className='stars'></motion.div>
     </div>
   );
 };
