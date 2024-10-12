@@ -9,7 +9,7 @@
     font-size: 5rem;
     line-height: 80px;
     color: orange;
-    margin: 20px 0;
+    padding-top: 50px;
   }
 
   .wrapper {
@@ -81,6 +81,19 @@
     }
     .svgContainer {
       flex: 1;
+
+      .phoneSVG {
+        stroke: orange;
+        position: relative;
+        margin: auto;
+        z-index: 0;
+      }
+
+      // @media (max-width: 768px) {
+      //   .svgContainer {
+      //     display: none;
+      //   }
+      // }
     }
   }
 }
