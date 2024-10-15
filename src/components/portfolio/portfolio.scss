@@ -11,6 +11,8 @@
     text-align: center;
     color: orange;
     font-size: 36px;
+    background: #10102f;
+    z-index: 2;
 
     @include mobile {
       padding-top: calc(100vh - 100px);
@@ -94,6 +96,10 @@
           }
         }
 
+        .buttonContainer {
+          display: flex;
+        }
+
         button {
           background-color: orange;
           border: none;
@@ -101,6 +107,7 @@
           padding: 10px;
           width: 200px;
           cursor: pointer;
+          margin-right: 10px;
         }
       }
     }

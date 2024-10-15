@@ -48,7 +48,11 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <div className="buttonContainer">
+
+            <button>Github</button>
+            <button>Live Demo</button>
+            </div>
           </motion.div>
         </div>
       </div>
@@ -72,7 +76,7 @@ const Portfolio = () => {
   return (
     <div id="Portfolio" className="portfolio" ref={ref}>
       <div className="progress">
-        <h1>Projects</h1>
+        <h1>Portfolio</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (

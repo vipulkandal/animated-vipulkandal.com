@@ -16,20 +16,6 @@ const textVariants = {
   },
 };
 
-const sliderVariants = {
-  initial: {
-    x: 0,
-  },
-  animate: {
-    x: "-100%",
-    transition: {
-        repeat: Infinity,  // Infinite loop
-        repeatType: "loop",  // Smooth restart when finished
-        duration: 15,  // Adjust the duration for desired speed
-        ease: "linear",  // Smooth, constant scrolling
-      },
-  },
-};
 
 const Hero = () => {
   return (
@@ -41,32 +27,23 @@ const Hero = () => {
           initial='initial'
           animate='animate'
         >
-          {/* <h2>Vipul Kandal</h2> */}
           <motion.h1 variants={textVariants}>
             <span>MERN Stack Developer</span>, expert at <span>Front-end</span>{" "}
             Technologies
           </motion.h1>
           <motion.div className='buttons' variants={textVariants}>
-            <motion.button variants={textVariants}>
-              Projects
+            <motion.button variants={textVariants} href='#Portfolio'>
+              <a href='#Portfolio'>Portfolio</a>
+            
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
-            <motion.button variants={textVariants}>Download CV</motion.button>
+            <motion.button variants={textVariants}>
+            <a href='#Contact'>Contact Me</a>
+            </motion.button>
+            <motion.button variants={textVariants}>
+              Download CV</motion.button>
           </motion.div>
         </motion.div>
       </motion.div>
-      {/* <motion.div
-        className='slidingTextContainer'
-        variants={sliderVariants}
-        initial='initial'
-        animate='animate'
-      >
-        React  Next.js  CSS  JavaScript  Redux  Node.js  Express.js  REST
-        API  MongoDB  Git Vercel
-      </motion.div> */}
-      {/* <div className='image-container'>
-        <img src='/hero.png' alt='' />
-      </div> */}
     </motion.div>
   );
 };

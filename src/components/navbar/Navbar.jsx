@@ -4,6 +4,7 @@ import Sidebar from "../sidebar/Sidebar";
 
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi"; // Twitter/X
+import { FiX } from 'react-icons/fi';
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -18,21 +19,21 @@ const Navbar = () => {
         </motion.span>
         <div className='social-media'>
           <a
-            href='https://www.github.com/yourusername'
+            href='https://github.com/vipulkandal'
             target='_blank'
             rel='noopener noreferrer'
           >
             <FaGithub size={30} />
           </a>
           <a
-            href='https://www.linkedin.com/in/yourusername'
+            href='https://www.linkedin.com/in/vipul-kandal-17374061/'
             target='_blank'
             rel='noopener noreferrer'
           >
             <FaLinkedin size={30} />
           </a>
           <a
-            href='https://www.twitter.com/yourusername'
+            href='https://x.com/VipulKandalCode'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -40,12 +41,14 @@ const Navbar = () => {
           </a>
 
           <a
-            href='https://www.instagram.com/vipulkandal'
+            href='https://www.instagram.com/vipulkandal/'
             target='_blank'
             rel='noopener noreferrer'
           >
             <FaInstagram size={30} />
           </a>
+
+        
         </div>
       </div>
     </div>
