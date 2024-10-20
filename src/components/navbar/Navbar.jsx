@@ -3,8 +3,7 @@ import "./navbar.scss";
 import Sidebar from "../sidebar/Sidebar";
 
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
-import { FiTwitter } from "react-icons/fi"; // Twitter/X
-import { FiX } from 'react-icons/fi';
+import { FiTwitter } from "react-icons/fi";
 const Navbar = () => {
   return (
     <div className='navbar'>

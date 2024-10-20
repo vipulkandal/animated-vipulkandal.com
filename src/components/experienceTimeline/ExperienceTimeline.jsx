@@ -8,7 +8,7 @@ import { FaBuilding } from "react-icons/fa";
 
 const experiences = [
   {
-    company: "Technology Analyst at Infosys | Chandigarh",
+    company: "Technology Analyst (MERN Stack Developer) at Infosys | Chandigarh",
     duration: "Aug 2023 - Present",
     duties: [
       "Developed scalable, secure, and high-performance web applications to meet the financial services needs of BOFA.",
@@ -94,7 +94,7 @@ const experiences = [
 
 const ExperienceTimeline = () => {
   return (
-    <section id='Experience' className='experience'>
+    <section  className='experience'>
       <div className='title'>
         <h1>Experience</h1>
       </div>

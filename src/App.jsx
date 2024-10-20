@@ -14,12 +14,21 @@ const App = () => {
         <Hero />
       </section>
 
-      <Portfolio />
-      <Skills />
+      <section id='Portfolio'>
+        <Portfolio />
+      </section>
+
+      <section id='Skills'>
+        <Skills />
+      </section>
+
       <section id='Experience'>
         <ExperienceTimeline />
       </section>
-      <Contact />
+
+      <section id='Contact'>
+        <Contact />
+      </section>
     </>
   );
 };

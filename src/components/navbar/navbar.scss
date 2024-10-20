@@ -24,11 +24,18 @@
       @include mobile {
         display: none;
       }
+      @include tablet {
+        margin-left: 120px;
+      }
     }
 
     .social-media {
       display: flex;
       gap: 4px;
+
+      @include tablet {
+        margin-right: 20px;
+      }
     }
 
     a {

@@ -1,7 +1,8 @@
 .experience {
-  height: 100vh;
   display: flex;
   flex-direction: column;
+  height: 100vh; // Full viewport height for the portfolio section
+  overflow-y: auto; // Allow vertical scroll within the portfolio section
 
   .title {
     text-align: center;

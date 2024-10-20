@@ -40,7 +40,7 @@ const Hero = () => {
             <a href='#Contact'>Contact Me</a>
             </motion.button>
             <motion.button variants={textVariants}>
-              Download CV</motion.button>
+             <a href="public/VipulKandal_MERN_5Years.pdf" target="_blank" rel="noreferrer">Download CV</a> </motion.button>
           </motion.div>
         </motion.div>
       </motion.div>

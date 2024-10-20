@@ -28,7 +28,7 @@ const Contact = () => {
     threshold: 0.3, // Adjust threshold based on when you want the animation to start
   });
   return (
-    <motion.div id='Contact' className='contact' ref={ref.ref} variants={SocialMediaVariant} initial='initial' animate='animate'>
+    <motion.div  className='contact' ref={ref.ref} variants={SocialMediaVariant} initial='initial' animate='animate'>
       <motion.h1 className='title' variants={SocialMediaVariant}>Contact</motion.h1>
       <motion.div className='wrapper' variants={SocialMediaVariant}>
         <motion.div className='textContainer' variants={SocialMediaVariant}>

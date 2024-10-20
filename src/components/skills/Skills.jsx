@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { FaReact, FaNodeJs, FaGitAlt, FaJira } from "react-icons/fa";
 import { DiMongodb, DiSass } from "react-icons/di";
@@ -27,9 +26,9 @@ const Skills = () => {
   ];
 
   return (
-    <div id='Skills' className='skills-container'>
-      <h2>My Skills</h2>
-      <div className='wrapper'>
+    <motion.div  className='skills-container'>
+      <motion.h2>My Skills</motion.h2>
+      <motion.div className='wrapper'>
         <motion.div
           className='skills-grid'
           initial={{ opacity: 0, y: 20 }}
@@ -48,8 +47,8 @@ const Skills = () => {
             </motion.div>
           ))}
         </motion.div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

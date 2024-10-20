@@ -2,6 +2,8 @@
 
 .portfolio {
   position: relative;
+  height: 100vh; // Full viewport height for the portfolio section
+  overflow-y: auto;
 
   .progress {
     position: sticky;
@@ -32,6 +34,8 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    min-height: 100%; // Ensure that the container fills the full height
+    padding: 20px 0;
 
     .wrapper {
       max-width: 1366px;
@@ -108,6 +112,7 @@
           width: 200px;
           cursor: pointer;
           margin-right: 10px;
+          font-size: 20px;
         }
       }
     }
