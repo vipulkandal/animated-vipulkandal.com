@@ -9,24 +9,24 @@ import Skills from "./components/skills/Skills";
 const App = () => {
   return (
     <>
-      <section id='Home'>
+      <section id="Home" style={{ scrollSnapAlign: "start" }}>
         <Navbar />
         <Hero />
       </section>
 
-      <section id='Portfolio'>
+      <section id="Portfolio" style={{ scrollSnapAlign: "start" }}>
         <Portfolio />
       </section>
 
-      <section id='Skills'>
+      <section id="Skills" style={{ scrollSnapAlign: "start" }}>
         <Skills />
       </section>
 
-      <section id='Experience'>
+      <section id="Experience" style={{ scrollSnapAlign: "start" }}>
         <ExperienceTimeline />
       </section>
 
-      <section id='Contact'>
+      <section id="Contact" style={{ scrollSnapAlign: "start" }}>
         <Contact />
       </section>
     </>

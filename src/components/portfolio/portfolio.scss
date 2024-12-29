@@ -1,6 +1,8 @@
 @import "../../app.scss";
 
 .portfolio {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
   position: relative;
   height: 100vh; // Full viewport height for the portfolio section
   overflow-y: auto;
