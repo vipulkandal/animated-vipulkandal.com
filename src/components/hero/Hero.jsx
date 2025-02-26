@@ -16,7 +16,6 @@
 //   },
 // };
 
-
 // const Hero = () => {
 //   return (
 //     <motion.div className='hero'>
@@ -34,7 +33,7 @@
 //           <motion.div className='buttons' variants={textVariants}>
 //             <motion.button variants={textVariants} href='#Portfolio'>
 //               <a href='#Portfolio'>Portfolio</a>
-            
+
 //             </motion.button>
 //             <motion.button variants={textVariants}>
 //             <a href='#Contact'>Contact Me</a>
@@ -49,7 +48,6 @@
 // };
 
 // export default Hero;
-
 
 import "./hero.scss";
 import { motion, useInView } from "framer-motion";
@@ -87,7 +85,7 @@ const Hero = () => {
           animate={isInView ? "animate" : "initial"} // Trigger animation when in view
         >
           <motion.h1 variants={textVariants}>
-            <span>MERN Stack Developer</span>, expert at <span>Front-end</span>{" "}
+            <span>Full Stack Developer</span>, expert at <span>Front-end</span>{" "}
             Technologies
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
@@ -99,7 +97,7 @@ const Hero = () => {
             </motion.button>
             <motion.button variants={textVariants}>
               <a
-                href="public/VipulKandal_MERN_5Years.pdf"
+                href="public/Vipul Kandal-FullStack.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
